@@ -4,6 +4,7 @@ import './TinderCards.css'
 
 function TinderBodyCard() {
     const [people, setPeople] = useState([
+
         {
             name: "Mark Zuckerberg",
             url: "https://i0.wp.com/www.eastmojo.com/wp-content/uploads/2021/04/Mark-Zuckerberg-on-Signal.jpg?fit=1200%2C801&ssl=1",
@@ -19,6 +20,10 @@ function TinderBodyCard() {
         {
             name: "Bill gates",
             url: "https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f4ebe0c87612dab4f12a597%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D292%26cropX2%3D3684%26cropY1%3D592%26cropY2%3D3987"
+        },
+        {
+            name: "Russian",
+            url: "https://media-exp1.licdn.com/dms/image/C4E03AQGDkXfPVOtVTw/profile-displayphoto-shrink_800_800/0/1604939702926?e=1628121600&v=beta&t=QG6G8mQguMC4Ok1WsEhI2jkPNEN9EKaY8eaEdtrzkVI"
         },
         {
             name: "Raza Khan",
